@@ -272,39 +272,3 @@ span.active{
     width: 100%;
 }
 
-@media (max-width: 520px){
-    .weather__block {
-        width: 290px;
-        padding: 20px 20px;
-    }
-    .weather__title {
-        font-size: 25px;
-    }
-    .weather__description{
-        display: none;
-    }
-    .weather-five__current {
-        padding: 15px 0 0 15px;
-    }
-    .weather-five__back {
-        top: 15px;
-        right: 150px;
-    }
-
-    .weather-five__menu{
-
-padding: 10px 150px;
-
-    }
-    .weather-five__btn {
-position: relative;
-        margin-bottom: 0;
-
-    }
-    .weather-five__row {
-        display: block;
-
-    }
-
-
-    }
