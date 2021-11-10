@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfbb1038-f307-42eb-8aef-290ca2a227d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FiveDays/FiveDays.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FiveDays/FiveDays.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +37,11 @@
       <option name="presentableId" value="Default" />
       <updated>1635145842811</updated>
       <workItem from="1635145847003" duration="1053000" />
-      <workItem from="1636538380311" duration="266000" />
+      <workItem from="1636538380311" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

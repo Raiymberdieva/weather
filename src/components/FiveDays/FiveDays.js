@@ -32,13 +32,13 @@ const FiveDays = ({day, setDay, weatherFive, days, weather, temp, setTemp, setFi
            <div className='weather-five__row'>
                {[...new Set(days)].map((item,idx)=>{
                    return(
-                       <div className='el'key={item}>
+                       <div className='el' key={item}>
                            <button className={`weather-five__btn ${idx === day ? 'active' : ''}`} type='button' onClick={()=> setDay(idx)}>
                                {item}
                            </button>
                            <ul className={`weather-five__menu ${idx === day ? 'active' : ''}`}>
-                               {weatherFive.list.map((el)=>{
-                                   if (el.dt_txt.includes(item))
+                               {weatherFive.list.map(el =>{
+                                   if (el.dt_txt.includes(item)){
                                        return(
                                            <li key={el.dt_txt} className='weather-five__menu-list'>
                                                <p className='weather-five__menu-title'>{el.dt_txt.slice(11, )}</p>
@@ -49,7 +49,12 @@ const FiveDays = ({day, setDay, weatherFive, days, weather, temp, setTemp, setFi
                                                <p className='weather-five__menu-title'>{el.weather[0].main}</p>
                                            </li>
                                        )
-                               })}
+                                   } else {
+                                       return ''
+                                   }
+
+                               })
+                               }
                            </ul>
                        </div>
                    )
